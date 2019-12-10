@@ -13,5 +13,6 @@ class Anagram
     array.each do |w|
       binding.pry
       w == w
+    end
   end
 end
