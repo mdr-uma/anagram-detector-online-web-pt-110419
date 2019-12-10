@@ -11,8 +11,8 @@ class Anagram
 
   def match(array)
     array.each do |w|
-      binding.pry
-      w == w
+      # binding.pry
+      w.match
     end
   end
 end
