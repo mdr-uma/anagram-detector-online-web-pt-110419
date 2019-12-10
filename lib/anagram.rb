@@ -8,6 +8,5 @@ class Anagram
 
   def match(array)
     []
-    # match.include?(diaper)
   end
 end
