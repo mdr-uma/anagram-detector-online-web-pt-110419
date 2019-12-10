@@ -12,7 +12,7 @@ class Anagram
   def match(array)
     array.each do |w|
       # binding.pry
-      w.match
+      w.match(array)
     end
   end
 end
