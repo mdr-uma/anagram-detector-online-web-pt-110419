@@ -6,7 +6,7 @@ class Anagram
     @word = word
   end
 
-  def match(word)
-    @word = "diaper"
+  def match
+    match.include?(diaper)
   end
 end
