@@ -13,5 +13,6 @@ class Anagram
       (@word.split("").sort) == (w.split("").sort)
       #binding.pry
     end
+    []
   end
 end
