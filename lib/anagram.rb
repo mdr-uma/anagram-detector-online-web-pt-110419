@@ -13,7 +13,7 @@ class Anagram
     array.select do |w|
       (@word.split("").sort) == (w.split("").sort)
 
-      #  binding.pry
+        binding.pry
     end
   end
 end
