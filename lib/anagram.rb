@@ -8,8 +8,7 @@ class Anagram
 
   def match(array)
     array = []
-    if array != []
-      array.sort
-    end
+    # if array != []
+    #   array.sort
   end
 end
